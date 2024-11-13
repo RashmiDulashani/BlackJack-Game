@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Jack Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>BLACK<span><img src="images/heart.png" id="heart" width="50px"></span>JACK</h1>
+    <button id="newCard" onclick="main()">Generate Card</button>
+    <button id="restart" onclick="restart()">Restart</button>
+    <h3 id="score">Current Score: <span id="value">0</span></h3>
+    <div id="line"></div>
+ 
+    <div id="cardContainer"></div>
+    
+    <h2 id="result"></h2>
+
+    <audio id="generate-sound" src="Sounds/Generate.aac"></audio>
+    <audio id="win-sound" src="Sounds/Win.aac"></audio>
+    <audio id="lost-sound" src="Sounds/Lost.mpeg"></audio>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
