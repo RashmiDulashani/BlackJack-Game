@@ -19,7 +19,6 @@ h1 {
     font-size: 55px;
     text-align: center;
     padding: 30px;
-    text-shadow: 2px 2px 4px rgb(200, 200, 200);
 }
 
 #heart {
@@ -30,23 +29,12 @@ button {
     display: block;
     font-size: 20px;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
     padding: 10px 12px;
     border: none;
     border-radius: 8px;
     background-color: green;
     cursor: pointer;
     margin: 0 auto; 
-    animation: buttonAnimation 1s ease-in-out;
-}
-
-@keyframes buttonAnimation {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
 }
 
 button:hover {
@@ -71,13 +59,8 @@ h3 {
     background-color: white;
 }
 
-span {
-    color: #f6bbbe ;
-}
-
 h2 {
     font-size: 45px;
-    font-weight: bolder;
     text-align: center;
 }
 
