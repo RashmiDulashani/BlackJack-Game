@@ -17,5 +17,6 @@
 </ol>
 
 <div align="center">
-  <img src="images/.png" width="300px">
+  <img src="README images/Lost.png" width="300px" height="150px">
+  <img src="README images/Win.png" width="300px" height="150px">
 </div>
